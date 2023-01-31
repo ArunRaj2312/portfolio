@@ -5,6 +5,9 @@
 		.name-1{
 			font-size:25px;
 		}
+		.list-icon{
+			padding: 0 5px;
+		}
 	}
 	@media(min-width:767px){
 		.name{
@@ -12,6 +15,9 @@
 		}
 		.name-1{
 			font-size:30px;
+		}
+		.list-icon{
+			padding: 0 10px;
 		}
 	}
 	@media(min-width:1000px){
@@ -43,21 +49,19 @@
 	.menu-bar{
 		top:20px;
 		right:20px;
-		font-size:40px;
 		z-index:1;
 	}
-	.about{
-		height:250px;
-		width:250px;
-		background-color:#76C8B7;
-		transform:rotate(45deg);
+	.list-icon{
+		font-size: 40px;
+		background-color: #76C8B7;
+		border-radius: 5px;
 	}
-	.about-img{
-		width:250px;
-		height:250px;
+	.nav{
+		display: none;
 	}
-	.about-img img{
-		width:100%;
+	.nav-link{
+		font-size: 20px;
+		color: white;
 	}
 	.port-img{
 		background-color:#000000c7;
@@ -127,4 +131,7 @@
 	}
 	.follow-icon a{
 		color:#414252;
+	}
+	.font-color{
+		color: #76C8B7;
 	}
